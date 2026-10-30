@@ -10,8 +10,11 @@ import java.util.Scanner;
 
 public class tesda1{
     public static void main(String[]args){
-        String name = "Gilbert";
+        // 
+        
+        int x = 5;
+        int y = x++;
+        System.out.print(x);
 
-        System.out.print(name);
     }
 }
